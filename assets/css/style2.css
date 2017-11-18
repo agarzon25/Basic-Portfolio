@@ -1,0 +1,27 @@
+form {
+	padding-top: 10px;
+	float: middle;
+	position: absolute;
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+	padding: 15px;
+	margin-top: 40px;
+}
+
+input[type=text]: focus {
+	background-color: red;
+}
+
+.form {
+	position: absolute;
+	float: left;
+	width: 650px;
+	padding-left: 250px;
+}
+
+.message {
+	width: 500px;
+	height: 200px;
+}
+
