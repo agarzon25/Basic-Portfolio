@@ -79,6 +79,9 @@ p {
 .contact-box {
 	float: left;
 	width:270px;
+	border-style: offset;
+	border-color: grey;
+	border:3px;
 }
 
 .cnt-img {
