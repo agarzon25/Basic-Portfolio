@@ -3,31 +3,57 @@
 	position: absolute;
 	width: 650px;
 	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 25px;
+	padding: 0px 0px 0px 0px;
+	border-style: solid;
+	border-color: black;
+	border-width: 2px;
+	background-color: darkred;
 }
 
 .portfolio-h2 {
 	position: absolute;
 	float: left;
 	text-align: center;
+	padding-top: 5px;
 	padding-left: 25px;
+	padding-right: 25px;
 }
 
 .portfolio-icons {
+	position: relative;
 	display: block;
 	float: left;
-	position: absolute;
-	margin-top: 30px;
+	margin: 10px 0px 0px 60px;
 }
 
 .portfolio-br {
-	border: 2px solid black;
+	position: relative;
+	border: 3px solid black;
 	margin-top: 35px;
 	margin-right: 35px;
+	margin-left: 25px;
+}
+
+.bottom-box {
+	display: none;
+}
+
+strong {
+	display: block;
+	position: inherit;
+	text-align: center;
+	padding-bottom: 5px;
 }
 
 img {
 	width: 200px;
 	float: left;
+	margin: 10px;
+	max-height: 100px;
 }
  
+a {
+	display: block;
+	float: left;
+}
+
