@@ -2,33 +2,51 @@
 <html lang="en-us">
 <head>
 	<meta charset="utf-8"/>
-	<title>CSS Stylesheets with Relative Paths</title>
-	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<title>Andrew Garzon's Bio</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
+	<link rel="stylesheet" type="text/css" href="assets/css/style2.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style3.css">
 </head>
 <body>
-	<div class="container">
-		<header>
-			<h1>Student Bio</h1>
-		</header>
-		<section id="main-bio">
-			<h2 id="bioh2">Andrew Garzon</h2>
-			<img id="bio-image" src="https://lh3.googleusercontent.com/KeszosGqDT-FxvvxiTCz-A5iCyVXFXrBapu1M62wVgvxJw0_IsjrbGCQOd11rouzRjJ5QVMacb-wNgE5xXqRtCJwi6R50ChnlKH7WGjohQMBKgMWPjIGlJWHaNI1QBdktJ2jGQw3kWOIybD4krehOQlDXQd0DqyaSYRM2wMEjbPJy0r8L-A56Gne3crQ4baYbE-V43CVA3zzF02rj9UYGCvEzMRNI4ykYVKolVlyPcXLq_vwpKhsfO7TTL8ZRhKXPRRjMCw2k_BHXYqQ5p5MqgLUSFNegBCqX9GnAZmnC-ffxLvYxXxvJD7eA0ruCVJVBR3BaumiIsRY5lJ5fSWm6N1XqR0ZjkNf-H7dMEWqU8JuJxeGF_LOZ02nJrgO31lj6PUVVlGiM06KPFbC6_zHp7BcjYvJDSOfjeYu_CrFQGmJ8P3Hj6LaY-1CTALxj4QgSFJCUsQ2rDm2DSdKgdqKhNFEoNPDRp0TInwd44qbc_nlemGMSTiZbTLg8WYGMOdL12rVkPZAl7EBUh1SvvH4HBXs0kM1L7Vog0wLjVVUUns8TENNT6jbvTZlHgfi_JsMnx4pJXF9Vbgk3gEmRuZ7ZUukC95gjQMvYv8BAPF8wA=w693-h923-no" alt="Andrew Garzon"/>
-			<p>
-				I like dogs, especially mine. His name is Flash. He turns 1 in 8 days! I work really slow and have to speed it up but I'm getting there.
-			</p>
-		</section>
-
-		<section id="contact-info">
-			<h2>Contact Info</h2>
-			<ul>
-				<li><strong>Email:</strong> <a href="andrew.garzon.25@gmail.com">andrew.garzon.25@gmail.com</a></li>
-				<li><strong> Github:</strong> <a href="https://github.com/agarzon25">agarzon25</a></li>
-				<li><strong>Portfolio:</strong> <a href="#">coming soon</a></li>
-			</ul>
-		</section>
+	<div class="top-block">
+		<div class="top-h1">
+			<h1>Andrew Garzon</h1>
+		</div>
+		<div class="top-list">
+			<a target="_blank" class="top-a" href="index.html">About</a>
+			<a target="_blank" class="top-a" href="#">Portfolio</a>
+			<a target="_blank" class="top-a" href="contact.html">Contact</a>
+		</div>
 	</div>
-	<div id="cpfooter">
-		<footer><h4></h4></footer>
+	<div class="container">
+		<div class="portfolio-block">
+			<div class="portfolio-h2">
+				<h2>Portfolio</h2>
+			</div>
+			<div class="portfolio-br"></div>
+			<div class="portfolio-icons">
+				<a><img src="assets/images/hangman.png"/><strong>Hangman</strong></a>
+				<a class="right-b"><img src="assets/images/zelda.png"/><strong>RPG Game</strong></a>
+				<a><img src="assets/images/ydkj.png"/><strong>Trivia</strong></a>
+				<a class="right-b"><img src="assets/images/riw.png"/><strong>Rutgers Info Widget</strong></a>
+				<a><img src="assets/images/rps.png"/><strong>Rock Paper Scissors</strong></a>
+				<a class="right-b"><img src=""/></a>
+			</div>
+		</div>
+		<div class="contact-box">
+			<div class="cb-h2">
+				<h2>Contact with me!</h2>
+			</div>
+			<div class="cb-icons">
+				<a href="http://github.com"><img class="small-icons" src="assets/images/github.png"></a>
+				<a href="http://linkedin.com"><img class="small-icons" src="assets/images/linkedin.png"></a>
+				<a href="http://stackoverflow.com"><img class="small-icons" src="assets/images/stackoverflow.png"></a>
+			</div>		
+		</div>
+	</div>
+	<div class="bottom-box">
+		<h5>&copy Copyright 2017 Andrew Garzon </h5>
 	</div>
 </body>
 </html>

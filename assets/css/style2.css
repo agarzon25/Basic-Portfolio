@@ -5,11 +5,16 @@ form {
 	border-style: solid;
 	border-color: black;
 	border-width: 3px;
-	padding: 15px;
+	padding: 20px;
 	margin-top: 40px;
 }
 
-input[type=text]: focus {
+input {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+input: focus {
 	background-color: red;
 }
 
@@ -17,7 +22,7 @@ input[type=text]: focus {
 	position: absolute;
 	float: left;
 	width: 650px;
-	padding-left: 250px;
+	padding-left: 215px;
 }
 
 .message {
