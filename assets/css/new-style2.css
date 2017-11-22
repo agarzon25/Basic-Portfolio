@@ -1,0 +1,32 @@
+form {
+	padding-top: 10px;
+	float: middle;
+	position: absolute;
+	border-style: solid;
+	border-color: black;
+	border-width: 3px;
+	padding: 20px;
+	margin-top: 40px;
+}
+
+input {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+input: focus {
+	background-color: red;
+}
+
+.form {
+	position: absolute;
+	float: left;
+	width: 650px;
+	padding-left: 215px;
+}
+
+.message {
+	width: 500px;
+	height: 200px;
+}
+
