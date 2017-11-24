@@ -7,9 +7,36 @@ body{
 	padding-top: 0px;
 }
 
+.header-container {
+	background-color: darkred;
+	width: 960px;
+	margin: 0 auto;
+	padding: 20px 0px;
+}
+
+.top-icons {
+	text-align: center;
+	padding-top: 5px;
+}
+
+.clearfix {
+	content: "";
+	clear: both;
+	display: table;
+}
+
 h1 {
-	font-size: 28px;
+	font-size: 24px;
 	color: beige;
+	text-align: center;
+}
+
+a.top-a {
+	color: beige;
+}
+
+img {
+	width: 200px;
 }
 
 h2 {
@@ -22,20 +49,12 @@ h5 {
 	text-align: center;
 }
 
-a.top-a {
-	color: beige;
-	padding: 10px;
-}
 
 p {
 	color: black;
 	font-weight: bold;
 	font-family: "lucida" serif;
-	font-weight: 5;
-	padding-left: 25px;
-	padding-right: 25px;
-	margin-top: 30px;
-	word-wrap: normal;
+	word-wrap: flex;
 }
 
 .container {
@@ -45,31 +64,7 @@ p {
 	padding-top: 20px;
 }
 
-.top-block {
-	background-color: darkred;
-	width: 960px;
-	margin: 0 auto;
-	padding: 35px 0px 35px 0px;	
-}
-
-.top-h1 {
-	float: left;
-	position: absolute;
-	margin-left: 50px;
-	margin-top:-15px;
-	text-align: center;
-}
-
-.top-list {
-	float: right;
-	text-align: center;
-	margin-right: 50px;
-	margin-bottom: 15px;
-}
-
 .top-border{
-	margin-top: 10px;
-	padding-top: 10px;
 	border-bottom-style: outset;
 	border-bottom-width: 5px;
 	border-bottom-color: grey;
